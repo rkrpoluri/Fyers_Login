@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fyers WebAppTrader</title>
+    <link rel="stylesheet" href="style.css">  </head>
+<body>
+    <div id="login-container">
+        <h2>Authenticate with Fyers</h2>
+        <input type="text" id="api-key" placeholder="Your Fyers API Key">
+        <input type="password" id="api-secret" placeholder="Your Fyers API Secret">
+        <button id="authenticate-button">Authenticate</button>
+        <div id="auth-status"></div> 
+    </div>
+
+    <div id="dashboard" style="display: none;"> <h2>Welcome to Your WebAppTrader</h2>
+        <div id="market-data">
+            </div>
+        <div id="account-info">
+            </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
